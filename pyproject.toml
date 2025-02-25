@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "langchain-vpcflowlogs"
+version = "0.1.0"
+description = "Chat with VPC Flow Logs by querying logs from CloudWatch and analyzing them with an LLM."
+authors = ["karim.jamali@gmail.com"]
+
+# Disable packaging
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.13"
+langchain = "^0.2.1"
+langchain-openai = "0.1.8"
+langchain-community = "^0.2.1"
+python-dotenv = "^1.0.1"
+boto3 = "^1.24.0"
+
+[tool.pyright]
+useLibraryCodeForTypes = true
+exclude = [".cache"]
+
+[tool.ruff]
+select = ['E', 'W', 'F', 'I', 'B', 'C4', 'ARG', 'SIM']
+ignore = ['W291', 'W292', 'W293']
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
