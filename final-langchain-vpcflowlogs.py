@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 import sys
 import time
 
-load_dotenv()
+load_dotenv(override=True)
 
 LOG_GROUP_NAME = os.getenv("LOG_GROUP_NAME")
 REGION_NAME = os.getenv("REGION_NAME")
