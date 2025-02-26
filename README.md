@@ -1,19 +1,20 @@
 # AWS VPC Flow Log Querying with LangChain and OpenAI
 
-This repository demonstrates how to analyze AWS VPC Flow Logs using LangChain and OpenAI's GPT-4.0 model to process user queries. The logs are fetched from AWS CloudWatch, and user queries are processed through a language model to extract meaningful network flow information.
+This repository demonstrates how to analyze AWS VPC Flow Logs using LangChain and OpenAI's GPT-4 model. The logs are fetched from AWS CloudWatch, and user queries are processed through the language model to extract meaningful insights from network flow data. This project showcases a seamless integration of AWS services and conversational AI for real-time log analysis.
 
 ## Overview
 
-This solution automates the process of analyzing AWS VPC Flow Logs by integrating the AWS CloudWatch service with LangChain and OpenAI's GPT model. The process involves fetching VPC logs, transforming them for easy analysis, and then using GPT-4 to answer user queries based on those logs. By leveraging the power of AI, users can quickly identify network flow patterns, troubleshoot issues, and gain security insights without manually sifting through raw logs.
+This solution automates the analysis of AWS VPC Flow Logs by integrating AWS CloudWatch with LangChain and OpenAI's GPT-4 model. The process includes fetching VPC logs, transforming them for easier analysis, and utilizing GPT-4 to answer user queries based on the logs. By leveraging the power of AI, users can efficiently identify network flow patterns, troubleshoot issues, and gain valuable security insights—without the need to manually sift through raw logs.
 
 ![Solution Overview](images/Solution_Overview.png)
 
 
 The solution follows these steps:
-1. Fetching VPC Flow Logs from AWS CloudWatch.
-2. Converting timestamps and log data into a human-readable format.
-3. Processing natural language queries to extract relevant network flow details.
-4. Returning structured responses based on the logs and queries.
+
+1. Fetch VPC Flow Logs from AWS CloudWatch.
+2. Convert timestamps and log data into a human-readable format.
+3. Process natural language queries to extract relevant network flow information.
+4. Return structured responses based on the logs and user queries.
 
 
 ## Prerequisites
