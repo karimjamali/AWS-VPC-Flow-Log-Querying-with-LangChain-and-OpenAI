@@ -97,6 +97,10 @@ The script will:
 3. Answer the provided queries based on the logs.
 4. Feel free to modify the user_queries list in the script to ask different questions.
 
+More details can be fuond in this blog post. 
+[Using LangChain to Chat with AWS VPC Flow Logs](https://jamali.hashnode.dev/using-langchain-to-chat-with-aws-vpc-flow-logs)
+
+
 Example Query:
 Show the connections with Protocol equals 6 and Destination Port equals 22.
 
