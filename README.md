@@ -97,7 +97,7 @@ The script will:
 3. Answer the provided queries based on the logs.
 4. Feel free to modify the user_queries list in the script to ask different questions.
 
-More details can be fuond in this blog post. 
+More details can be found here:  
 [Using LangChain to Chat with AWS VPC Flow Logs](https://jamali.hashnode.dev/using-langchain-to-chat-with-aws-vpc-flow-logs)
 
 
